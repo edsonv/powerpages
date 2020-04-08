@@ -1,0 +1,93 @@
+[24-Mar-2020 16:59:41 UTC] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user ''@'localhost' (using password: NO) in /mnt/usb-PHD_3.0_Silicon-Power_14028841114210000087-0:0-part7/Documentos/proyectos/biolinks/product/app/core/Database.php on line 15
+[24-Mar-2020 17:00:41 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_object() on bool in /mnt/usb-PHD_3.0_Silicon-Power_14028841114210000087-0:0-part7/Documentos/proyectos/biolinks/product/app/models/Settings.php:14
+Stack trace:
+#0 /mnt/usb-PHD_3.0_Silicon-Power_14028841114210000087-0:0-part7/Documentos/proyectos/biolinks/product/app/core/App.php(37): Altum\Models\Settings->get()
+#1 /mnt/usb-PHD_3.0_Silicon-Power_14028841114210000087-0:0-part7/Documentos/proyectos/biolinks/product/index.php(11): Altum\App->__construct()
+#2 {main}
+  thrown in /mnt/usb-PHD_3.0_Silicon-Power_14028841114210000087-0:0-part7/Documentos/proyectos/biolinks/product/app/models/Settings.php on line 14
+[24-Mar-2020 17:00:46 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_object() on bool in /mnt/usb-PHD_3.0_Silicon-Power_14028841114210000087-0:0-part7/Documentos/proyectos/biolinks/product/app/models/Settings.php:14
+Stack trace:
+#0 /mnt/usb-PHD_3.0_Silicon-Power_14028841114210000087-0:0-part7/Documentos/proyectos/biolinks/product/app/core/App.php(37): Altum\Models\Settings->get()
+#1 /mnt/usb-PHD_3.0_Silicon-Power_14028841114210000087-0:0-part7/Documentos/proyectos/biolinks/product/index.php(11): Altum\App->__construct()
+#2 {main}
+  thrown in /mnt/usb-PHD_3.0_Silicon-Power_14028841114210000087-0:0-part7/Documentos/proyectos/biolinks/product/app/models/Settings.php on line 14
+[24-Mar-2020 17:02:48 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_object() on bool in /mnt/usb-PHD_3.0_Silicon-Power_14028841114210000087-0:0-part7/Documentos/proyectos/biolinks/product/app/models/Settings.php:14
+Stack trace:
+#0 /mnt/usb-PHD_3.0_Silicon-Power_14028841114210000087-0:0-part7/Documentos/proyectos/biolinks/product/app/core/App.php(37): Altum\Models\Settings->get()
+#1 /mnt/usb-PHD_3.0_Silicon-Power_14028841114210000087-0:0-part7/Documentos/proyectos/biolinks/product/index.php(11): Altum\App->__construct()
+#2 {main}
+  thrown in /mnt/usb-PHD_3.0_Silicon-Power_14028841114210000087-0:0-part7/Documentos/proyectos/biolinks/product/app/models/Settings.php on line 14
+[24-Mar-2020 17:02:59 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_object() on bool in /mnt/usb-PHD_3.0_Silicon-Power_14028841114210000087-0:0-part7/Documentos/proyectos/biolinks/product/app/models/Settings.php:14
+Stack trace:
+#0 /mnt/usb-PHD_3.0_Silicon-Power_14028841114210000087-0:0-part7/Documentos/proyectos/biolinks/product/app/core/App.php(37): Altum\Models\Settings->get()
+#1 /mnt/usb-PHD_3.0_Silicon-Power_14028841114210000087-0:0-part7/Documentos/proyectos/biolinks/product/index.php(11): Altum\App->__construct()
+#2 {main}
+  thrown in /mnt/usb-PHD_3.0_Silicon-Power_14028841114210000087-0:0-part7/Documentos/proyectos/biolinks/product/app/models/Settings.php on line 14
+[24-Mar-2020 17:03:11 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_object() on bool in /mnt/usb-PHD_3.0_Silicon-Power_14028841114210000087-0:0-part7/Documentos/proyectos/biolinks/product/app/models/Settings.php:14
+Stack trace:
+#0 /mnt/usb-PHD_3.0_Silicon-Power_14028841114210000087-0:0-part7/Documentos/proyectos/biolinks/product/app/core/App.php(37): Altum\Models\Settings->get()
+#1 /mnt/usb-PHD_3.0_Silicon-Power_14028841114210000087-0:0-part7/Documentos/proyectos/biolinks/product/index.php(11): Altum\App->__construct()
+#2 {main}
+  thrown in /mnt/usb-PHD_3.0_Silicon-Power_14028841114210000087-0:0-part7/Documentos/proyectos/biolinks/product/app/models/Settings.php on line 14
+[24-Mar-2020 17:04:10 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_object() on bool in /mnt/usb-PHD_3.0_Silicon-Power_14028841114210000087-0:0-part7/Documentos/proyectos/biolinks/product/app/models/Settings.php:14
+Stack trace:
+#0 /mnt/usb-PHD_3.0_Silicon-Power_14028841114210000087-0:0-part7/Documentos/proyectos/biolinks/product/app/core/App.php(37): Altum\Models\Settings->get()
+#1 /mnt/usb-PHD_3.0_Silicon-Power_14028841114210000087-0:0-part7/Documentos/proyectos/biolinks/product/index.php(11): Altum\App->__construct()
+#2 {main}
+  thrown in /mnt/usb-PHD_3.0_Silicon-Power_14028841114210000087-0:0-part7/Documentos/proyectos/biolinks/product/app/models/Settings.php on line 14
+[24-Mar-2020 17:05:32 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_object() on bool in /mnt/usb-PHD_3.0_Silicon-Power_14028841114210000087-0:0-part7/Documentos/proyectos/biolinks/product/app/models/Settings.php:14
+Stack trace:
+#0 /mnt/usb-PHD_3.0_Silicon-Power_14028841114210000087-0:0-part7/Documentos/proyectos/biolinks/product/app/core/App.php(37): Altum\Models\Settings->get()
+#1 /mnt/usb-PHD_3.0_Silicon-Power_14028841114210000087-0:0-part7/Documentos/proyectos/biolinks/product/index.php(11): Altum\App->__construct()
+#2 {main}
+  thrown in /mnt/usb-PHD_3.0_Silicon-Power_14028841114210000087-0:0-part7/Documentos/proyectos/biolinks/product/app/models/Settings.php on line 14
+[24-Mar-2020 17:05:35 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_object() on bool in /mnt/usb-PHD_3.0_Silicon-Power_14028841114210000087-0:0-part7/Documentos/proyectos/biolinks/product/app/models/Settings.php:14
+Stack trace:
+#0 /mnt/usb-PHD_3.0_Silicon-Power_14028841114210000087-0:0-part7/Documentos/proyectos/biolinks/product/app/core/App.php(37): Altum\Models\Settings->get()
+#1 /mnt/usb-PHD_3.0_Silicon-Power_14028841114210000087-0:0-part7/Documentos/proyectos/biolinks/product/index.php(11): Altum\App->__construct()
+#2 {main}
+  thrown in /mnt/usb-PHD_3.0_Silicon-Power_14028841114210000087-0:0-part7/Documentos/proyectos/biolinks/product/app/models/Settings.php on line 14
+[24-Mar-2020 17:05:59 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_object() on bool in /mnt/usb-PHD_3.0_Silicon-Power_14028841114210000087-0:0-part7/Documentos/proyectos/biolinks/product/app/models/Settings.php:14
+Stack trace:
+#0 /mnt/usb-PHD_3.0_Silicon-Power_14028841114210000087-0:0-part7/Documentos/proyectos/biolinks/product/app/core/App.php(37): Altum\Models\Settings->get()
+#1 /mnt/usb-PHD_3.0_Silicon-Power_14028841114210000087-0:0-part7/Documentos/proyectos/biolinks/product/index.php(11): Altum\App->__construct()
+#2 {main}
+  thrown in /mnt/usb-PHD_3.0_Silicon-Power_14028841114210000087-0:0-part7/Documentos/proyectos/biolinks/product/app/models/Settings.php on line 14
+[24-Mar-2020 17:06:27 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_object() on bool in /mnt/usb-PHD_3.0_Silicon-Power_14028841114210000087-0:0-part7/Documentos/proyectos/biolinks/product/app/models/Settings.php:14
+Stack trace:
+#0 /mnt/usb-PHD_3.0_Silicon-Power_14028841114210000087-0:0-part7/Documentos/proyectos/biolinks/product/app/core/App.php(37): Altum\Models\Settings->get()
+#1 /mnt/usb-PHD_3.0_Silicon-Power_14028841114210000087-0:0-part7/Documentos/proyectos/biolinks/product/index.php(11): Altum\App->__construct()
+#2 {main}
+  thrown in /mnt/usb-PHD_3.0_Silicon-Power_14028841114210000087-0:0-part7/Documentos/proyectos/biolinks/product/app/models/Settings.php on line 14
+[24-Mar-2020 17:43:27 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_object() on bool in /mnt/usb-PHD_3.0_Silicon-Power_14028841114210000087-0:0-part7/Documentos/proyectos/biolinks/product/app/models/Settings.php:14
+Stack trace:
+#0 /mnt/usb-PHD_3.0_Silicon-Power_14028841114210000087-0:0-part7/Documentos/proyectos/biolinks/product/app/core/App.php(37): Altum\Models\Settings->get()
+#1 /mnt/usb-PHD_3.0_Silicon-Power_14028841114210000087-0:0-part7/Documentos/proyectos/biolinks/product/index.php(11): Altum\App->__construct()
+#2 {main}
+  thrown in /mnt/usb-PHD_3.0_Silicon-Power_14028841114210000087-0:0-part7/Documentos/proyectos/biolinks/product/app/models/Settings.php on line 14
+[24-Mar-2020 17:43:54 UTC] PHP Notice:  Trying to get property 'num_rows' of non-object in /mnt/usb-PHD_3.0_Silicon-Power_14028841114210000087-0:0-part7/Documentos/proyectos/biolinks/product/app/core/Database.php on line 86
+[24-Mar-2020 17:43:54 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_object() on bool in /mnt/usb-PHD_3.0_Silicon-Power_14028841114210000087-0:0-part7/Documentos/proyectos/biolinks/product/app/models/Settings.php:14
+Stack trace:
+#0 /mnt/usb-PHD_3.0_Silicon-Power_14028841114210000087-0:0-part7/Documentos/proyectos/biolinks/product/app/core/App.php(37): Altum\Models\Settings->get()
+#1 /mnt/usb-PHD_3.0_Silicon-Power_14028841114210000087-0:0-part7/Documentos/proyectos/biolinks/product/index.php(11): Altum\App->__construct()
+#2 {main}
+  thrown in /mnt/usb-PHD_3.0_Silicon-Power_14028841114210000087-0:0-part7/Documentos/proyectos/biolinks/product/app/models/Settings.php on line 14
+[24-Mar-2020 17:44:18 UTC] PHP Notice:  Trying to get property 'num_rows' of non-object in /mnt/usb-PHD_3.0_Silicon-Power_14028841114210000087-0:0-part7/Documentos/proyectos/biolinks/product/app/core/Database.php on line 86
+[24-Mar-2020 17:44:18 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_object() on bool in /mnt/usb-PHD_3.0_Silicon-Power_14028841114210000087-0:0-part7/Documentos/proyectos/biolinks/product/app/models/Settings.php:14
+Stack trace:
+#0 /mnt/usb-PHD_3.0_Silicon-Power_14028841114210000087-0:0-part7/Documentos/proyectos/biolinks/product/app/core/App.php(37): Altum\Models\Settings->get()
+#1 /mnt/usb-PHD_3.0_Silicon-Power_14028841114210000087-0:0-part7/Documentos/proyectos/biolinks/product/index.php(11): Altum\App->__construct()
+#2 {main}
+  thrown in /mnt/usb-PHD_3.0_Silicon-Power_14028841114210000087-0:0-part7/Documentos/proyectos/biolinks/product/app/models/Settings.php on line 14
+[24-Mar-2020 17:44:23 UTC] PHP Notice:  Trying to get property 'num_rows' of non-object in /mnt/usb-PHD_3.0_Silicon-Power_14028841114210000087-0:0-part7/Documentos/proyectos/biolinks/product/app/core/Database.php on line 86
+[24-Mar-2020 17:44:23 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_object() on bool in /mnt/usb-PHD_3.0_Silicon-Power_14028841114210000087-0:0-part7/Documentos/proyectos/biolinks/product/app/models/Settings.php:14
+Stack trace:
+#0 /mnt/usb-PHD_3.0_Silicon-Power_14028841114210000087-0:0-part7/Documentos/proyectos/biolinks/product/app/core/App.php(37): Altum\Models\Settings->get()
+#1 /mnt/usb-PHD_3.0_Silicon-Power_14028841114210000087-0:0-part7/Documentos/proyectos/biolinks/product/index.php(11): Altum\App->__construct()
+#2 {main}
+  thrown in /mnt/usb-PHD_3.0_Silicon-Power_14028841114210000087-0:0-part7/Documentos/proyectos/biolinks/product/app/models/Settings.php on line 14
+[24-Mar-2020 18:09:53 UTC] PHP Notice:  Undefined index: content in /mnt/usb-PHD_3.0_Silicon-Power_14028841114210000087-0:0-part7/Documentos/proyectos/biolinks/product/themes/altum/views/wrapper.php on line 36
+[24-Mar-2020 21:57:58 UTC] PHP Notice:  Undefined index: content in /mnt/usb-PHD_3.0_Silicon-Power_14028841114210000087-0:0-part7/Documentos/proyectos/biolinks/product/themes/altum/views/wrapper.php on line 36
+[24-Mar-2020 21:58:38 UTC] PHP Notice:  Undefined index: content in /mnt/usb-PHD_3.0_Silicon-Power_14028841114210000087-0:0-part7/Documentos/proyectos/biolinks/product/themes/altum/views/wrapper.php on line 36
+[24-Mar-2020 22:01:01 UTC] PHP Notice:  Undefined index: domain_id in /mnt/usb-PHD_3.0_Silicon-Power_14028841114210000087-0:0-part7/Documentos/proyectos/biolinks/product/app/controllers/LinkAjax.php on line 181
+[24-Mar-2020 22:01:55 UTC] PHP Notice:  Undefined index: domain_id in /mnt/usb-PHD_3.0_Silicon-Power_14028841114210000087-0:0-part7/Documentos/proyectos/biolinks/product/app/controllers/LinkAjax.php on line 381
