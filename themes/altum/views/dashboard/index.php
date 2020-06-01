@@ -4,7 +4,8 @@
     <div class="container">
 
         <div class="d-flex flex-column flex-md-row justify-content-between">
-            <h1 class="h3"><?= sprintf($this->language->dashboard->header->header, $this->settings->title) ?></h1>
+            <!-- <h1 class="h3"><?= sprintf($this->language->dashboard->header->header, $this->settings->title) ?></h1> -->
+            <h1 class="h3">Welcome, <?= $this->user->name ?></h1>
         </div>
 
         <div class="row justify-content-between">

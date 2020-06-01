@@ -11,9 +11,9 @@
             <link href="<?= url(UPLOADS_URL_PATH . 'favicon/' . $this->settings->favicon) ?>" rel="shortcut icon" />
         <?php endif ?>
 
-        <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&display=swap" rel="stylesheet">
 
-        <?php foreach(['bootstrap.min.css', 'custom.css', 'link-custom.css', 'animate.min.css'] as $file): ?>
+        <?php foreach(['bootstrap.min.css', 'custom.css', 'link-custom.css', 'animate.min.css', 'main.css', 'styles.css'] as $file): ?>
             <link href="<?= url(ASSETS_URL_PATH . 'css/' . $file . '?v=' . PRODUCT_CODE) ?>" rel="stylesheet" media="screen">
         <?php endforeach ?>
 
@@ -28,7 +28,7 @@
         <?php endif ?>
     </head>
 
-    <body class="<?= \Altum\Routing\Router::$controller_settings['body_white'] ? 'bg-white' : null ?>">
+    <body>
         <?= $this->views['menu'] ?>
 
         <main class="animated fadeIn">

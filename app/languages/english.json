@@ -827,10 +827,11 @@
 	},
 
 	"index": {
-		"title"							: "Multiple Bio Links for Instagram",
-		"header"						: "Get the most of your<br />Instagram Bio Link",
-		"subheader"						: "Create shorted links, unique biolink pages and get proper statistics of your visitors.",
-		"sign_up"						: "Get Started ⚡️",
+		"title"							: "Powerpages.io",
+		"header"						: "Take your business<br />to the next level.",
+		"subheader"						: "No more hard ways to make marketing the right way.",
+    "sign_up"						: "Sign up to",
+    "login"             : "Login to your",
 		"breadcrumb"					: "Home",
 
 		"presentation": {

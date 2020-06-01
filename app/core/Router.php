@@ -11,7 +11,7 @@ class Router {
     public static $controller = 'Index';
     public static $controller_settings = [
         'menu_no_margin'        => false,
-        'body_white'            => true,
+        'body_white'            => false,
         'wrapper'               => 'wrapper'
     ];
     public static $method = 'index';
