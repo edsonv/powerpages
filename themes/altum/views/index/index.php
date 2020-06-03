@@ -31,7 +31,7 @@
         <div class="container position-relative zi-1">
           <div class="row align-items-center">
             <div class="col-12 position-relative text-center zi-4 mb-8 mb-lg-10">
-              <h1 class="display-md-4 display-xl-3 fw-600 lh-2 pt-12 mb-7 mb-lg-8">
+              <h1 class="display-md-4 display-xl-3 fw-600 lh-2 pt-11 mb-7 mb-lg-8">
                 <!-- <span class="d-block">Take your business&nbsp;</span>
                 <span class="d-block">to the next level.&nbsp;</span> -->
                 <span class="d-block"><?= $this->language->index->header ?></span>
