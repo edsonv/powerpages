@@ -674,7 +674,7 @@
 	},
 
 	"link": {
-		"branding"							: "🔥 by BioLink",
+		"branding"							: "🔥 by Powerpages.io",
 		"title"								: "%s Link",
 		"breadcrumb_link"					: "Link",
 		"breadcrumb_biolink"				: "Biolink",
