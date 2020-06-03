@@ -12,7 +12,7 @@ class Router {
     public static $controller_settings = [
         'menu_no_margin'        => false,
         'body_white'            => false,
-        'wrapper'               => 'wrapper'
+        'wrapper'               => 'backoffice_wrapper'
     ];
     public static $method = 'index';
 
@@ -25,7 +25,10 @@ class Router {
 
         '' => [
             'index' => [
-                'controller' => 'Index'
+                'controller' => 'Index',
+                'settings' => [
+                  'wrapper' => 'wrapper'
+                ]
             ],
 
             'login' => [
