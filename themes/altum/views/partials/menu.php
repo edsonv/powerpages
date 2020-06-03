@@ -59,7 +59,7 @@
     </div>
 </nav> -->
 
-<nav class="navbar navbar-expand-lg navbar-dark fixed-top navbar-affix affix">
+<nav class="navbar navbar-expand-lg navbar-dark sticky-top navbar-affix affix">
       <div class="container">
         <div class="row">
           <div class="col-auto col-lg-6 d-lg-none">
@@ -111,7 +111,7 @@
 
                     <li class="nav-item"><a class="nav-link" href="<?= url('dashboard') ?>"> <?= $this->language->dashboard->menu ?></a></li>
 
-                    <li class="dropdown">
+                    <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" aria-haspopup="true" aria-expanded="false">
                             <img src="<?= get_gravatar($this->user->email) ?>" class="navbar-avatar" />
                             <?= $this->user->name ?> <span class="caret"></span>
@@ -138,7 +138,7 @@
                     <?php endif ?> -->
 
                     <li class="nav-item">
-                  <a href="<?= url('blog') ?>" class="nav-link">Blog</a>
+                  <a href="blog.html" class="nav-link">Blog</a>
                 </li>
                 <li class="nav-item">
                   <a href="pricing.html" class="nav-link">Pricing</a>
