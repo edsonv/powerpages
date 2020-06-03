@@ -1,4 +1,5 @@
-/app/config/config.php
+app/config/
 /install
 biolinks.zip
-/debug.log
+./debug.log
+.vscode/
