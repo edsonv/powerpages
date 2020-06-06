@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>PowerPages.io - Digital Business Card</title>
+
+    <!-- CSS -->
+    <link href="assets/css/main.css" rel="stylesheet">
+    <link href="assets/css/styles.css" rel="stylesheet">
+
+    <!-- Favicons -->
+    <link rel="apple-touch-icon" href="assets/img/apple-touch-icon.png">
+    <link rel="icon" href="assets/img/favicon.png">
+
+    <!-- Iconic Fonts -->
+    <link href="assets/css/fonts/fontawesome/all.min.css" rel="stylesheet">
+    <link href="assets/css/fonts/themify-icons.css" rel="stylesheet">
+
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+
+    <!-- nav -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top navbar-affix">
+      <div class="container">
+        <div class="row">
+          <div class="col-auto col-lg-6 d-lg-none">
+            <button class="navbar-toggler d-xl-none" data-toggle="offcanvas" data-target="#offcanvas-left">
+              <img src="assets/img/menu-dark.svg" class="menu__btn menu-dark" alt="Menu">
+              <img src="assets/img/menu-light.svg" class="menu__btn menu-light" alt="Menu">
+            </button>
+          </div>
+          <div class="col-auto col-sm-auto text-lg-left ml-auto ml-lg-0">
+            <a class="navbar-brand logo" href="index.html">
+              <img src="assets/img/app-logo.png" alt="Logo" class="app-logo logo-light">
+              <img src="assets/img/logo.png" class="logo-fl" alt="Logo">
+            </a>
+          </div>
+          <div class="col-12 col-lg-auto ml-lg-auto">
+            <div id="offcanvas-left" class="offcanvas-md" data-animation="slideLeft">
+              <button type="button" class="close fw-100 d-lg-none" data-toggle="offcanvas-close" aria-label="Close">
+                <img src="assets/img/close-dark.svg" class="menu__btn closeMenu__btn menu-dark" alt="Close">
+                <img src="assets/img/close-light.svg" class="menu__btn closeMenu__btn menu-light" alt="Close">
+              </button>
+              <ul class="nav navbar-nav mr-6 mr-lg-0">
+                <li class="nav-item">
+                  <a href="blog.html" class="nav-link">Blog</a>
+                </li>
+                <li class="nav-item">
+                  <a href="pricing.html" class="nav-link">Pricing</a>
+                </li>
+                <li class="nav-item">
+                  <a href="help-center.html" class="nav-link">Help Center</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- /.nav -->
+
+    <!-- header -->
+    <header id="home" class="header" data-style="default">
+      <div class="header-hero d-flex align-items-center text-light">
+        <div class="container position-relative zi-1">
+          <div class="row align-items-center">
+            <div class="col-12 position-relative text-center zi-4 mb-8 mb-lg-10">
+              <h1 class="display-md-4 display-xl-3 fw-600 lh-2 pt-12 mb-7 mb-lg-8">
+                <span class="d-block">Take your business&nbsp;</span>
+                <span class="d-block">to the next level.&nbsp;</span>
+              </h1>
+              <span class="d-block fw-500 lead-md-1 o-70 mb-7 mb-lg-8">No more hard ways to make marketing the right way.</span>
+              <div>
+                <a href="https://powerpages.io/register" class="btn-download btn btn-lg btn-sm-block btn-theme">
+                  <div class="d-flex align-items-center py-2">
+                    <div class="mr-4">
+                      <div class="d-flex lead-5"><i class="fab fa-angellist"></i></div>
+                    </div>
+                    <div class="text-left lh-6 fw-500">
+                      <span class="d-none d-lg-block">Sign up to</span>
+                      <strong class="fw-700">Powerpages</strong>
+                    </div>
+                  </div>
+                </a>
+                <a href="https://powerpages.io/login" class="btn-download btn btn-lg btn-sm-block btn-theme">
+                  <div class="d-flex align-items-center py-2">
+                    <div class="mr-4">
+                      <div class="d-flex lead-5"><i class="fab fa-keycdn"></i></div>
+                    </div>
+                    <div class="text-left lh-6 fw-500">
+                      <span class="d-none d-lg-block">Login to your</span>
+                      <strong class="fw-700">Account HERE</strong>
+                    </div>
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div id="how-it-works" class="col-12">
+              <div class="theme-box">
+                <img src="assets/img/app/device-hero.png" alt="Device">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- overlay -->
+      <div class="pe-n overlay fadeIn ad-100ms zi-0" style="top: 25%">
+        <div class="grid-wrapper">
+          <div class="grid grid-ibf">
+            <div class="grid-fade"></div>
+          </div>
+          <div class="grid">
+            <div class="grid-lines"></div>
+          </div>
+        </div>
+      </div>
+      <!-- /.overlay -->
+    </header>
+    <!-- /.header -->
+
+    <!-- main -->
+    <main id="content-main" class="content-main">
+
+      <!-- new -->
+      <section class="wn__section pb-9 pb-lg-10 pb-xl-11 pt-8 pt-lg-9 pt-xl-10">
+        <div class="container">
+          <div class="row gutters-y">
+            <div class="col-sm-8 col-md-6 col-lg-4 mx-auto mb-4 mb-md-7 mb-lg-0">
+              <div class="px-2 px-lg-3">
+                <div class="wn__icon mb-6">
+                  <img src="assets/img/icon/01.png" alt="Icon">
+                </div>
+                <h6 class="wn__title">Share it everywhere</h6>
+                <p>Copy and paste your Power Page anywhere to promote it and catch tons of leads straight to your dashboard.</p>
+              </div>
+            </div>
+            <div class="col-sm-8 col-md-6 col-lg-4 mx-auto mb-4 mb-md-7 mb-lg-0">
+              <div class="px-2 px-lg-3">
+                <div class="wn__icon mb-6">
+                  <img src="assets/img/icon/03.png" alt="Icon">
+                </div>
+                <h6 class="wn__title">Get the whole metrics&nbsp;</h6>
+                <p>As soon people visit your powerpage you collect great marketing information from your potential customers right away.</p>
+              </div>
+            </div>
+            <div class="col-sm-8 col-md-6 col-lg-4 mx-auto">
+              <div class="px-2 px-lg-3">
+                <div class="wn__icon mb-6">
+                  <img src="assets/img/icon/02.png" alt="Icon">
+                </div>
+                <h6 class="wn__title">Easy to set it up</h6>
+                <p>In less than 5 mins. add your profile picture, links, intro video and your contact number, to start interacting with your leads.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- /.new -->
+
+      <!-- overlay -->
+      <div class="p-relative pe-n">
+        <div class="overlay fadeIn ad-100ms zi-0">
+          <img src="assets/img/bg/bg-c-01.png" class="ovry-2 p-absolute l--6" alt="fx">
+        </div>
+      </div>
+      <!-- /.overlay -->
+
+      <!-- features -->
+      <section id="features" class="content-section text-center">
+        <div class="container">
+          <div class="row mb-6 mb-lg-9">
+            <div class="col-12">
+              <div>
+                <h5 class="text-secondary lead-lg-4">This is a digital business card with the power to convert leads into clients</h5>
+                <h2 class="display-lg-4 mb-5 mb-md-6 mb-lg-7">Power Page is designed as a side hustle marketing tool</h2>
+              </div>
+            </div>
+          </div>
+          <div class="row text-center">
+            <div class="col-12">
+              <img src="assets/img/app/app-1.png" alt="App" class="mb-2">
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- /.features -->
+
+      <!-- about -->
+      <section id="about" class="content-section p-relative">
+        <!-- overlay -->
+        <img src="assets/img/bg/bg-c-02.png" class="ovry-1 zi-0 p-absolute r-0 pe-n" alt="fx">
+        <!-- /.overlay -->
+        <div class="pb-8 pb-lg-9 pb-xl-12">
+          <div class="container">
+            <div class="row align-items-center">
+              <div class="col-lg-6 mb-8 mb-lg-0 ml-auto order-lg-2">
+                <div class="p-relative pl-lg-6">
+                  <div class="theme-box-ote w-fit-content ml-7 ml-lg-8">
+                    <img src="assets/img/content/f_01.jpg" alt="Photo">
+                  </div>
+                  <div class="p-relative zi-4 mt--11">
+                    <img src="assets/img/content/f_01-1.jpg" class="img-sm border-2 border-white" alt="Photo">
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-6">
+                <div class="pr-lg-8">
+                  <h5 class="text-secondary">The first business card that holds exclusively power</h5>
+                  <h2 class="display-lg-5 mb-5 mb-md-6 mb-lg-7">Network that sell you everywhere.</h2>
+                  <p class="lead-md-2 fw-500 mb-0">
+                    The real power of your Power Page is the hability to copy and paste your Facebook and Google Pixel code. To retarget anyone who opened your link.
+                  </p>
+                  <hr class="border-2 border-secondary w-15 ml-0 mr-auto mt-7 mb-4 mt-lg-9 mb-lg-6">
+                  <blockquote class="blockquote small-1 fw-500 px-4 px-lg-0">
+                    <p class="mb-0">In other words, you can show the right ADvertising to anyone who opened your Power P. Meaning more chances to close the sale</p>
+                  </blockquote>
+                  <div class="text-right">
+                    <a href="#">
+                      <span class="fw-600 text-underline">BUY IT NOW FOR LIFETIME AND SAVE MORE THAN $290USD</span><i class="fas fa-long-arrow-alt-right ml-2"></i>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="pt-7">
+          <div class="container">
+            <div class="row align-items-center">
+              <div class="col-lg-6 mb-8 mb-lg-0 mr-auto">
+                <div>
+                  <div class="d-flex p-relative">
+                    <div class="p-absolute zi-4 b-7 b-md-8 b-lg-10">
+                      <img src="assets/img/content/satis.png" class="img-sm border-2 border-white" alt="Photo">
+                    </div>
+                    <div class="p-relative mr-3 ml-7 ml-lg-9 mr-lg-0">
+                      <div class="rds"></div>
+                      <img src="assets/img/content/f_02-1.jpg" class="img-md p-relative" alt="Photo">
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-6">
+                <div class="pl-lg-8">
+                  <div class="">
+                    <div class="">
+                      <h5 class="text-secondary">Shorten links that succeds</h5>
+                      <h2 class="display-lg-5 mb-5">Keep track of your business growth.&nbsp;</h2>
+                      <p class="lead-md-2 fw-500 mb-0">
+                      As a second feature we include the Power link shortened. You´ll be able to copy and measure any kind of web link, similar to bit.ly</p>
+                      <hr class="border-2 border-secondary w-15 ml-0 mr-auto mt-7 mb-4 mt-lg-9 mb-lg-6">
+                      <blockquote class="blockquote small-1 fw-500 px-4 px-lg-0">
+                        <p class="mb-0">Like a zoom meeting link, or an online URL document, web page or any kinda link. This is a BONUS inside your Power Page Platform.</p>
+                      </blockquote>
+                      <div class="text-right">
+                        <a href="#">
+                          <span class="fw-600 text-underline">BUY IT NOW FOR LIFETIME AND SAVE MORE THAN $290USD</span><i class="fas fa-long-arrow-alt-right ml-2"></i>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- /.about -->
+
+      <!-- download -->
+      <div class="text-center px-4 px-md-7 px-lg-8">
+        <div class="content-section p-relative bp-c br-n bs-c" style="background: url(assets/img/bg/bg-1.jpg);">
+          <div class="overlay bg-dark o-95"></div>
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-9 col-xl-8 py-md-8 py-lg-10 mx-auto">
+                <div>
+                  <h2 class="display-lg-4 mb-6">Create your Power Page NOW FOR FREE!</h2>
+                  <span class="d-block text-light mb-8 lead-md-1">Fully functional, make your <strong>Upgrade anytime</strong> — NO <strong>TRICKS</strong></span>
+                </div>
+                <div class="mb-8">
+                  <a href="#" class="btn-download"><img src="assets/img/app/app_store-badge.png" alt="App Store"></a>
+                  <a href="#" class="btn-download"><img src="assets/img/app/google_play-badge.png" alt="App Store"></a>
+                </div>
+                <div class="px-4 px-lg-8 px-xl-10">
+                  <span class="small-2 text-light">For limited time only get the LIFETIME OFFER one time payment of $97 USD <strong>FREE</strong> updates <strong>INCLUDED</strong>.</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- /.download -->
+
+    </main>
+    <!-- /.main -->
+
+    <!-- footer -->
+    <footer class="footer">
+      <img class="f-shape p-absolute r-0 b--10 pe-n" src="assets/img/bg/fr-bg.png" alt="FX">
+      <div class="container">
+        <div class="row gutters-y my-6 my-md-9 mb-xl-10">
+          <div class="col-12 col-lg-3 mr-auto">
+            <a href="#" class="app_icon-wrapper d-inline-block p-lg-4">
+              <img src="assets/img/app-logo.png" alt="Logo" class="logo-light">
+            </a>
+          </div>
+          <div class="col-sm-6 col-md-4 col-lg-3">
+            <h6 class="nav-title mb-4">PowerPages.io&nbsp;</h6>
+            <div class="nav flex-column">
+              <a class="nav-link" href="#">Pricing&nbsp;</a>
+              <a class="nav-link" href="#">Register&nbsp; &nbsp;</a>
+              <a class="nav-link" href="#">About us&nbsp;</a>
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-4 col-lg-3">
+            <h6 class="nav-title mb-4">About</h6>
+            <div class="nav flex-column">
+              <a class="nav-link" href="#">Blog/News</a>
+              <a class="nav-link" href="#">Terms and Conditions</a>
+              <a class="nav-link" href="#">Privacy Policy</a>
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-4 col-lg-3">
+            <h6 class="nav-title mb-4">Support</h6>
+            <div class="nav flex-column">
+              <a class="nav-link" href="#">Help Center</a>
+              <a class="nav-link" href="#">Facebook&nbsp;</a>
+              <a class="nav-link" href="#">Instagram&nbsp;</a>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12">
+            <span class="fw-500">© Copyright 2020 Powerpages.io, All Rights Reserved.</span>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- /.footer -->
+    
+    <!-- jQuery -->
+    <script src="assets/js/jquery.min.js"></script>
+
+    <!-- Bootstrap -->
+    <script src="assets/js/bootstrap.min.js"></script>
+
+    <!-- User JS -->
+    <script src="assets/js/scripts.js"></script>
+
+    <!-- Modules -->
+    <script src="assets/js/modules.js"></script>
+
+    <!-- Main JS -->
+    <script src="assets/js/main.js" id="_mainJS" data-plugins="load"></script>
+  </body>
+</html>
