@@ -125,7 +125,7 @@
           <div class="col-sm-6 col-md-4 col-lg-3">
             <h6 class="nav-title mb-4"><?= $this->language->index->title?>&nbsp;</h6>
             <div class="nav flex-column">
-              <a class="nav-link" href="#">Pricing&nbsp;</a>
+              <a class="nav-link" href="//pricing.html">Pricing&nbsp;</a>
               <a class="nav-link" href="#">Register&nbsp; &nbsp;</a>
               <a class="nav-link" href="#">About us&nbsp;</a>
             </div>
@@ -133,7 +133,7 @@
           <div class="col-sm-6 col-md-4 col-lg-3">
             <h6 class="nav-title mb-4">About</h6>
             <div class="nav flex-column">
-              <a class="nav-link" href="#">Blog/News</a>
+              <a class="nav-link" href="//blog.html">Blog/News</a>
               <a class="nav-link" href="#">Terms and Conditions</a>
               <a class="nav-link" href="#">Privacy Policy</a>
             </div>
@@ -141,7 +141,7 @@
           <div class="col-sm-6 col-md-4 col-lg-3">
             <h6 class="nav-title mb-4">Support</h6>
             <div class="nav flex-column">
-              <a class="nav-link" href="#">Help Center</a>
+              <a class="nav-link" href="//help-center.html">Help Center</a>
               <a class="nav-link" href="#">Facebook&nbsp;</a>
               <a class="nav-link" href="#">Instagram&nbsp;</a>
             </div>
