@@ -357,7 +357,7 @@ h1, h2, h3, h4, h5, h6,
   font-family: "Poppins", sans-serif;
   font-weight: 600;
   line-height: 1.5;
-  color: #ffffff; }
+  /* color: #ffffff; */ }
 
 h1, .h1 {
   font-size: 2rem; }
@@ -12763,6 +12763,7 @@ button.close:focus {
     background: #ced4da;
     display: block;
     -webkit-backface-visibility: visible;
+    backface-visibility: visible;
     -webkit-transition: opacity 0.2s ease;
     -moz-transition: opacity 0.2s ease;
     -ms-transition: opacity 0.2s ease;
@@ -14582,7 +14583,7 @@ a.social-youtube:hover {
     content: "\e64b";
     font-family: 'themify';
     border: 0;
-    speak: none;
+    /* speak: none; */
     font-style: normal;
     font-weight: normal;
     font-variant: normal;
@@ -19728,7 +19729,8 @@ body.preloader {
 .parallelogram {
   -webkit-transform: skew(15deg);
   -moz-transform: skew(15deg);
-  -o-transform: skew(15deg); }
+  -o-transform: skew(15deg);
+  transform: skew(15deg); }
 
 .parallelogram > * {
   display: block;
@@ -20213,12 +20215,14 @@ a.text-gray:hover, a.text-gray:focus {
 .gt-primary-text {
   background: -webkit-linear-gradient(#0eabf9, #dc386f);
   -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent; }
+  -webkit-text-fill-color: transparent;
+  background-clip: text; }
 
 .gt-danger-text {
   background: -webkit-linear-gradient(#da2f69, #e3638e);
   -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent; }
+  -webkit-text-fill-color: transparent;
+  background-clip: text; }
 
 /* [ theme ] */
 .abs-tran-center {
