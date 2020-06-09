@@ -4,7 +4,7 @@
     <div class="admin-sidebar-title">
         <a href="<?= url() ?>" class="text-decoration-none">
             <?php if($this->settings->logo != ''): ?>
-                <img src="<?= url(UPLOADS_URL_PATH . 'logo/' . $this->settings->logo) ?>" class="img-fluid navbar-logo" alt="<?= $this->language->global->accessibility->logo_alt ?>" />
+                <img src="<?= url(UPLOADS_URL_PATH . 'logo/' . $this->settings->logo_black) ?>" class="img-fluid navbar-logo" alt="<?= $this->language->global->accessibility->logo_alt ?>" />
             <?php else: ?>
                 <span class="admin-navbar-brand"><?= $this->settings->title ?></span>
             <?php endif ?>
