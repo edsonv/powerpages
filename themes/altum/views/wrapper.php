@@ -49,11 +49,19 @@
         <input type="hidden" name="global_token" value="<?= \Altum\Middlewares\Csrf::get('global_token') ?>" />
         <input type="hidden" name="number_decimal_point" value="<?= $this->language->global->number->decimal_point ?>" />
         <input type="hidden" name="number_thousands_separator" value="<?= $this->language->global->number->thousands_separator ?>" />
-
-        <?php foreach(['libraries/jquery.min.js', 'libraries/popper.min.js', 'libraries/bootstrap.min.js', 'main.js', 'functions.js', 'libraries/fontawesome.min.js', 'libraries/clipboard.min.js'] as $file): ?>
+        <?php foreach(['libraries/jquery.min.js', 'libraries/popper.min.js', 'libraries/bootstrap.min.js', 'main.js', 'functions.js', 'libraries/fontawesome.min.js', 'libraries/clipboard.min.js', 'libraries/modules.js'] as $file): ?>
             <script src="<?= SITE_URL . ASSETS_URL_PATH ?>js/<?= $file ?>?v=<?= PRODUCT_CODE ?>"></script>
         <?php endforeach ?>
 
         <?= \Altum\Event::get_content('javascript') ?>
+        <script defer id="io.birdseed.script-tag" type="text/javascript" src="https://cdn.birdseed.io/widget.js"></script><div id="birdseed-widget-container" data-token="6e6403174ac41d2d4a32f07413864124"></div>
+        <!-- Start of ProductFlare Code -->
+<script src="https://eu-us.productflare.com/changelogrunnerfilerr"></script>
+<link rel="stylesheet" href="https://eu-us.productflare.com/changelogstylefilerr">
+<script>
+       window.onload = () => {       initChangelog("","1591586159324x311133702787170300")
+                             }
+    </script>
+<!-- End of ProductFlare Code -->
     </body>
 </html>
