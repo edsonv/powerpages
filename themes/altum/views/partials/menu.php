@@ -138,13 +138,16 @@
                     <?php endif ?> -->
 
                     <li class="nav-item">
-                  <a href="blog.html" class="nav-link">Blog</a>
+                  <a name="Newsfeed" href="#" class="nav-link">Newsfeed</a>
+                </li>
+                    <li class="nav-item">
+                  <a href="<?= url('page/blog')?>" class="nav-link">Blog</a>
                 </li>
                 <li class="nav-item">
-                  <a href="pricing.html" class="nav-link">Pricing</a>
+                  <a href="<?= url('page/pricing') ?>" class="nav-link">Pricing</a>
                 </li>
                 <li class="nav-item">
-                  <a href="help-center.html" class="nav-link">Help Center</a>
+                  <a href="<?= url('page/help-center') ?>" class="nav-link">Help Center</a>
                 </li>
 
                 <?php endif ?>

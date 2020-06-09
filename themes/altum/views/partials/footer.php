@@ -125,25 +125,32 @@
           <div class="col-sm-6 col-md-4 col-lg-3">
             <h6 class="nav-title mb-4"><?= $this->language->index->title?>&nbsp;</h6>
             <div class="nav flex-column">
-              <a class="nav-link" href="//pricing.html">Pricing&nbsp;</a>
-              <a class="nav-link" href="#">Register&nbsp; &nbsp;</a>
+              <a class="nav-link" href="<?= url('page/pricing')?>">Pricing&nbsp;</a>
+              <a class="nav-link" href="<?= url('register')?>">Register&nbsp; &nbsp;</a>
               <a class="nav-link" href="#">About us&nbsp;</a>
             </div>
           </div>
           <div class="col-sm-6 col-md-4 col-lg-3">
             <h6 class="nav-title mb-4">About</h6>
             <div class="nav flex-column">
-              <a class="nav-link" href="//blog.html">Blog/News</a>
-              <a class="nav-link" href="#">Terms and Conditions</a>
-              <a class="nav-link" href="#">Privacy Policy</a>
+              <a class="nav-link" href="<?= url('page/blog')?>">Blog/News</a>
+              <a class="nav-link" href="//powerpages.io/uploads/terms_conditions-v2.pdf">Terms and Conditions</a>
+              <a class="nav-link" href="//powerpages.io/uploads/privacy_policy-v2.pdf">Privacy Policy</a>
             </div>
           </div>
           <div class="col-sm-6 col-md-4 col-lg-3">
             <h6 class="nav-title mb-4">Support</h6>
             <div class="nav flex-column">
-              <a class="nav-link" href="//help-center.html">Help Center</a>
-              <a class="nav-link" href="#">Facebook&nbsp;</a>
-              <a class="nav-link" href="#">Instagram&nbsp;</a>
+              <a class="nav-link" href="<?= url('page/help-center')?>">Help Center</a>
+                <?php
+                  if(!empty($this->settings->socials->facebook))
+                      echo '<a target="_blank" href="https://facebook.com/' . $this->settings->socials->facebook . '" class="nav-link">Facebook</a>';
+
+                  if(!empty($this->settings->socials->instagram))
+                      echo '<a target="_blank" href="https://instagram.com/' . $this->settings->socials->instagram . '" class="nav-link">Instagram</a>';
+                ?>
+              <!-- <a class="nav-link" href="//facebook.com/powerpages.io">Facebook&nbsp;</a> -->
+              <!-- <a class="nav-link" href="//instagram.com/power.pages">Instagram&nbsp;</a> -->
             </div>
           </div>
         </div>
