@@ -31,7 +31,7 @@
     <body style="background-color: white;">
         <?= $this->views['menu'] ?>
 
-        <main class="animated fadeIn">
+        <main class="animated fadeIn mb-9">
 
             <?= $this->views['content'] ?>
 
@@ -50,7 +50,7 @@
         <input type="hidden" name="number_decimal_point" value="<?= $this->language->global->number->decimal_point ?>" />
         <input type="hidden" name="number_thousands_separator" value="<?= $this->language->global->number->thousands_separator ?>" />
 
-        <?php foreach(['libraries/jquery.min.js', 'libraries/popper.min.js', 'libraries/bootstrap.min.js', 'main.js', 'functions.js', 'libraries/fontawesome.min.js', 'libraries/clipboard.min.js'] as $file): ?>
+        <?php foreach(['libraries/jquery.min.js', 'libraries/popper.min.js', 'libraries/bootstrap.min.js', 'main.js', 'functions.js', 'libraries/fontawesome.min.js', 'libraries/clipboard.min.js', 'libraries/modules.js'] as $file): ?>
             <script src="<?= SITE_URL . ASSETS_URL_PATH ?>js/<?= $file ?>?v=<?= PRODUCT_CODE ?>"></script>
         <?php endforeach ?>
 
