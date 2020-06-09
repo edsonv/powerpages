@@ -50,7 +50,10 @@ class Router {
             ],
 
             'page' => [
-                'controller' => 'Page'
+                'controller' => 'Page',
+                'settings' => [
+                  'wrapper' => 'wrapper'
+                ]
             ],
 
             'activate-user' => [
@@ -195,92 +198,155 @@ class Router {
         /* Admin Panel */
         'admin' => [
             'index' => [
-                'controller' => 'AdminIndex'
+                'controller' => 'AdminIndex',
+                'settings' => [
+                  'wrapper' => 'wrapper'
+                ]
             ],
 
             'users' => [
-                'controller' => 'AdminUsers'
+                'controller' => 'AdminUsers',
+                'settings' => [
+                  'wrapper' => 'wrapper'
+                ]
             ],
 
             'user-create' => [
-                'controller' => 'AdminUserCreate'
+                'controller' => 'AdminUserCreate',
+                'settings' => [
+                  'wrapper' => 'wrapper'
+                ]
             ],
 
             'user-view' => [
-                'controller' => 'AdminUserView'
+                'controller' => 'AdminUserView',
+                'settings' => [
+                  'wrapper' => 'wrapper'
+                ]
             ],
 
             'user-update' => [
-                'controller' => 'AdminUserUpdate'
+                'controller' => 'AdminUserUpdate',
+                'settings' => [
+                  'wrapper' => 'wrapper'
+                ]
             ],
 
             'links' => [
-                'controller' => 'AdminLinks'
+                'controller' => 'AdminLinks',
+                'settings' => [
+                  'wrapper' => 'wrapper'
+                ]
             ],
 
             'domains' => [
-                'controller' => 'AdminDomains'
+                'controller' => 'AdminDomains',
+                'settings' => [
+                  'wrapper' => 'wrapper'
+                ]
             ],
 
             'domain-create' => [
-                'controller' => 'AdminDomainCreate'
+                'controller' => 'AdminDomainCreate',
+                'settings' => [
+                  'wrapper' => 'wrapper'
+                ]
             ],
 
             'domain-update' => [
-                'controller' => 'AdminDomainUpdate'
+                'controller' => 'AdminDomainUpdate',
+                'settings' => [
+                  'wrapper' => 'wrapper'
+                ]
             ],
 
 
             'pages-categories' => [
-                'controller' => 'AdminPagesCategories'
+                'controller' => 'AdminPagesCategories',
+                'settings' => [
+                  'wrapper' => 'wrapper'
+                ]
             ],
 
             'pages-category-create' => [
-                'controller' => 'AdminPagesCategoryCreate'
+                'controller' => 'AdminPagesCategoryCreate',
+                'settings' => [
+                  'wrapper' => 'wrapper'
+                ]
             ],
 
             'pages-category-update' => [
-                'controller' => 'AdminPagesCategoryUpdate'
+                'controller' => 'AdminPagesCategoryUpdate',
+                'settings' => [
+                  'wrapper' => 'wrapper'
+                ]
             ],
 
             'pages' => [
-                'controller' => 'AdminPages'
+                'controller' => 'AdminPages',
+                'settings' => [
+                  'wrapper' => 'wrapper'
+                ]
             ],
 
             'page-create' => [
-                'controller' => 'AdminPageCreate'
+                'controller' => 'AdminPageCreate',
+                'settings' => [
+                  'wrapper' => 'wrapper'
+                ]
             ],
 
             'page-update' => [
-                'controller' => 'AdminPageUpdate'
+                'controller' => 'AdminPageUpdate',
+                'settings' => [
+                  'wrapper' => 'wrapper'
+                ]
             ],
 
 
             'packages' => [
-                'controller' => 'AdminPackages'
+                'controller' => 'AdminPackages',
+                'settings' => [
+                  'wrapper' => 'wrapper'
+                ]
             ],
 
             'package-create' => [
-                'controller' => 'AdminPackageCreate'
+                'controller' => 'AdminPackageCreate',
+                'settings' => [
+                  'wrapper' => 'wrapper'
+                ]
             ],
 
             'package-update' => [
-                'controller' => 'AdminPackageUpdate'
+                'controller' => 'AdminPackageUpdate',
+                'settings' => [
+                  'wrapper' => 'wrapper'
+                ]
             ],
 
 
             'payments' => [
-                'controller' => 'AdminPayments'
+                'controller' => 'AdminPayments',
+                'settings' => [
+                  'wrapper' => 'wrapper'
+                ]
             ],
 
 
             'statistics' => [
-                'controller' => 'AdminStatistics'
+                'controller' => 'AdminStatistics',
+                'settings' => [
+                  'wrapper' => 'wrapper'
+                ]
             ],
 
 
             'settings' => [
-                'controller' => 'AdminSettings'
+                'controller' => 'AdminSettings',
+                'settings' => [
+                  'wrapper' => 'wrapper'
+                ]
             ],
         ]
     ];
