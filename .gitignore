@@ -4,3 +4,4 @@ biolinks.zip
 debug.log
 .vscode/
 */.DS_Store
+.htaccess
