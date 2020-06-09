@@ -178,21 +178,21 @@
 
         "package_settings": {
             "no_ads"                    : "<i class=\"fa fa-eye-slash fa-fw mr-1\"></i> No Ads",
-			"removable_branding"		: "<i class=\"fa fa-eye-slash fa-fw mr-1\"></i> Removable Biolinks Branding",
-			"custom_branding"			: "<i class=\"fa fa-ad fa-fw mr-1\"></i> Custom Biolinks Branding",
-			"custom_colored_links"		: "<i class=\"fa fa-paint-brush fa-fw mr-1\"></i> Custom Biolinks Links Colors",
+			"removable_branding"		: "<i class=\"fa fa-eye-slash fa-fw mr-1\"></i> Removable Powerpages Branding",
+			"custom_branding"			: "<i class=\"fa fa-ad fa-fw mr-1\"></i> Custom Powerpages Branding",
+			"custom_colored_links"		: "<i class=\"fa fa-paint-brush fa-fw mr-1\"></i> Custom Powerpages Links Colors",
 			"statistics"				: "<i class=\"fa fa-chart-bar fa-fw mr-1\"></i> Indepth Statistics",
 			"google_analytics"			: "<i class=\"fab fa-google fa-fw mr-1\"></i> Google Analytics",
 			"facebook_pixel"			: "<i class=\"fab fa-facebook fa-fw mr-1\"></i> Facebook Pixel",
-			"custom_backgrounds"		: "<i class=\"fa fa-fill fa-fw mr-1\"></i> Custom Biolinks Backgrounds",
+			"custom_backgrounds"		: "<i class=\"fa fa-fill fa-fw mr-1\"></i> Custom Powerpages Backgrounds",
 			"verified"					: "<i class=\"fa fa-check-circle fa-fw mr-1\"></i> Verified Checkmark",
 			"scheduling"				: "<i class=\"fa fa-clock fa-fw mr-1\"></i> Links Scheduling",
 
 			"unlimited_projects_limit"	: "<i class=\"fa fa-infinity fa-fw mr-1\"></i> Unlimited Projects",
 			"projects_limit"			: "<strong>%s</strong> Projects",
 
-			"unlimited_biolinks_limit"	: "<i class=\"fa fa-infinity fa-fw mr-1\"></i> Unlimited Biolinks Pages",
-			"biolinks_limit"			: "<strong>%s</strong> Biolinks Pages",
+			"unlimited_biolinks_limit"	: "<i class=\"fa fa-infinity fa-fw mr-1\"></i> Unlimited Powerpages.",
+			"biolinks_limit"			: "<strong>%s</strong> Powerpages",
 
 			"unlimited_links_limit"		: "<i class=\"fa fa-infinity fa-fw mr-1\"></i> Unlimited Links",
 			"links_limit"				: "<strong>%s</strong> Links"
@@ -634,7 +634,7 @@
 
 		"projects": {
 			"header"						: "Your Projects",
-			"subheader"						: "A project can contain multiple Biolink Pages or Shortened links.",
+			"subheader"						: "A project can contain multiple Powerpages and Powerlinks.",
 			"create"						: "Create Project",
 
 			"name"							: "Name",
@@ -655,7 +655,7 @@
 		},
 
 		"links": {
-			"header"						: "Project Links",
+			"header"						: "Your power Powerpages and Powerlinks",
 			"create"						: "Create",
 
 			"clicks"						: "Total Unique Clicks",
@@ -676,17 +676,17 @@
 	"link": {
 		"branding"							: "🔥 by Powerpages.io",
 		"title"								: "%s Link",
-		"breadcrumb_link"					: "Link",
-		"breadcrumb_biolink"				: "Biolink",
+		"breadcrumb_link"					: "Powerlink",
+		"breadcrumb_biolink"				: "Powerpages",
 
 		"header": {
 			"header"						: "%s",
-			"subheader"						: "Your link is %s",
+			"subheader"						: "Your Powerpage is %s",
 			"links"							: "Back to Links List",
 
 			"settings_tab"					: "Settings",
 			"links_tab"						: "Links",
-			"biolinks_settings"				: "Back to BioLink"
+			"biolinks_settings"				: "Back to Powerpages.io"
 		},
 
 		"settings": {
@@ -772,7 +772,7 @@
 		},
 
 		"biolink": {
-			"name"                          : "Biolink",
+			"name"                          : "Powerpage",
 			"icon"							: "fa fa-hashtag",
 			"color"							: "#0089ff",
 
@@ -820,7 +820,7 @@
 		},
 
 		"link": {
-			"name"                          : "Link",
+			"name"                          : "Powerlink",
 			"icon"							: "fa-link",
 			"color"							: "#00526b"
 		}
@@ -835,8 +835,8 @@
 		"breadcrumb"					: "Home",
 
 		"presentation": {
-			"header"					: "Create beautiful <u>biolink pages</u>",
-			"subheader"					: "Create and manage multiple Biolink Pages for your team from a single dashboard."
+			"header"					: "Create beautiful <u>Powerpages</u>",
+			"subheader"					: "Create and manage multiple Powerpages for your team from a single dashboard."
 		},
 
 		"presentation2": {
@@ -1013,28 +1013,28 @@
 
 			"projects_limit"			: "Total Projects Limit",
 			"projects_limit_help"		: "Set -1 for unlimited.",
-			"biolinks_limit"			: "Total Biolinks Limit",
-			"biolinks_limit_help"		: "The total amount of biolink pages that a user can create. Set -1 for unlimited.",
+			"biolinks_limit"			: "Total Powerlinks Limit",
+			"biolinks_limit_help"		: "The total amount of Powerpages that a user can create. Set -1 for unlimited.",
 			"links_limit"				: "Total Links Limit",
 			"links_limit_help"			: "The total amount of links that a user can create (shorted links). Set -1 for unlimited.",
 			"no_ads"					: "No Ads",
 			"no_ads_help"				: "Enabling this will make all people having this package to not see any ads.",
 			"removable_branding"		: "Removable Footer Branding",
-			"removable_branding_help"	: "This gives the option for people to remove branding from the biolinks footer.",
+			"removable_branding_help"	: "This gives the option for people to remove branding from the Powerpage footer.",
 			"custom_branding"			: "Custom Footer Branding",
-			"custom_branding_help"		: "This gives the option for people to add their custom branding for the biolinks footer.",
+			"custom_branding_help"		: "This gives the option for people to add their custom branding for the Powerpage footer.",
 			"custom_colored_links"		: "Colored Links",
-			"custom_colored_links_help"	: "Gives the user the ability to customize the color of their biolinks links",
+			"custom_colored_links_help"	: "Gives the user the ability to customize the color of their Powerlinks",
 			"statistics"				: "Advanced Statistics",
 			"statistics_help"			: "Gives the user the ability to check more in depth statistics and select the time frame",
 			"google_analytics"			: "Google Analytics",
-			"google_analytics_help"		: "Gives the user the ability to add Google Analytics on their biolinks pages.",
+			"google_analytics_help"		: "Gives the user the ability to add Google Analytics on their Powerpages.",
 			"facebook_pixel"			: "Facebook Pixel",
-			"facebook_pixel_help"		: "Gives the user the ability to add Facebook Pixel on their biolinks pages.",
+			"facebook_pixel_help"		: "Gives the user the ability to add Facebook Pixel on their Powerpages.",
 			"custom_backgrounds"		: "Custom Backgrounds",
-			"custom_backgrounds_help"	: "Gives the user the ability to add custom backgrounds on their biolinks pages ( colors, gradients and actual images ).",
+			"custom_backgrounds_help"	: "Gives the user the ability to add custom backgrounds on their Powerpages ( colors, gradients and actual images ).",
 			"verified"					: "Verified Checkmark",
-			"verified_help"				: "Gives the user the verified checkmark on all their Biolink pages.",
+			"verified_help"				: "Gives the user the verified checkmark on all their Powerpages.",
 			"scheduling"				: "Links Scheduling",
 			"scheduling_help"			: "Gives the user the ability to schedule links."
 		}
@@ -1638,7 +1638,7 @@
 
 	"create_project_modal": {
 		"header"						: "Create New Project",
-		"subheader"						: "A project can manage multiple biolink pages and shorted links.",
+		"subheader"						: "A project can manage multiple Powerpages and Powerlinks.",
 
 		"input": {
 			"name"						: "Name"
@@ -1655,7 +1655,7 @@
 	},
 
 	"create_link_modal": {
-		"header"						: "Create a New Link",
+		"header"						: "Create a Powerlink",
 		"subheader"						: "Easily shorten the links that you want. More settings are available after the creation of the link.",
 
 		"input": {
@@ -1675,26 +1675,26 @@
 	},
 
 	"create_biolink_modal": {
-		"header"						: "Create a New Biolink Page",
-		"subheader"						: "More settings are available after the creation of the biolink.",
+		"header"						: "Create a New Powerpage",
+		"subheader"						: "More settings are available after the creation of the Powerlink.",
 
 		"input": {
-			"url"						: "Biolink Url",
+			"url"						: "Powerpage Url",
 			"url_placeholder"			: "your-custom-alias",
 			"url_help"					: "Leave empty for a random generated one.",
 
-			"submit"					: "Create Biolink Page"
+			"submit"					: "Create Powerpage"
 		},
 
 		"error_message": {
 			"biolinks_limit"			: "Your plan exceeded the maximum amount of biolinks.",
-			"url_exists"				: "Your selected Biolink Url already exists. Please choose a different one."
+			"url_exists"				: "Your selected Powerpage Url already exists. Please choose a different one."
 		}
 	},
 
 	"create_biolink_link_modal": {
-		"header"						: "Create a New Link",
-		"subheader"						: "Shorten and add a new link to you biolink page. More settings are available after the creation of the link.",
+		"header"						: "Create a New Powerlink",
+		"subheader"						: "Shorten and add a new link to you Powerpage. More settings are available after the creation of the link.",
 
 		"input": {
 			"url"						: "Short Url",
