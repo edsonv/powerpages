@@ -28,7 +28,7 @@
         <?php endif ?>
     </head>
 
-    <body>
+    <body class="wrapper">
         <?= $this->views['menu'] ?>
 
         <main class="animated fadeIn">

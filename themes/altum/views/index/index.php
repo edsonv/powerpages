@@ -63,9 +63,9 @@
                 </a>
               </div>
             </div>
-            <div id="how-it-works" class="col-12">
+            <div id="how-it-works" class="col-10 m-auto">
               <div class="theme-box">
-                <img src="<?= url(ASSETS_URL_PATH . 'images/device-hero.png') ?>" alt="Device">
+                <img src="<?= url(ASSETS_URL_PATH . 'images/device-hero.jpg') ?>" alt="Device">
               </div>
             </div>
           </div>
@@ -79,7 +79,7 @@
           </div>
           <div class="grid">
             <div class="grid-lines"></div>
-          </div>
+          </div>  
         </div>
       </div>
       <!-- /.overlay -->
@@ -243,7 +243,7 @@
                     <p class="mb-0">In other words, you can show the right ADvertising to anyone who opened your Power P. Meaning more chances to close the sale</p>
                   </blockquote>
                   <div class="text-right">
-                    <a href="#">
+                    <a class="yellow" href="#">
                       <span class="fw-600 text-underline">BUY IT NOW FOR LIFETIME AND SAVE MORE THAN $290USD</span><i class="fas fa-long-arrow-alt-right ml-2"></i>
                     </a>
                   </div>
@@ -281,7 +281,7 @@
                         <p class="mb-0">Like a zoom meeting link, or an online URL document, web page or any kinda link. This is a BONUS inside your Power Page Platform.</p>
                       </blockquote>
                       <div class="text-right">
-                        <a href="#">
+                        <a class="yellow" href="#">
                           <span class="fw-600 text-underline">BUY IT NOW FOR LIFETIME AND SAVE MORE THAN $290USD</span><i class="fas fa-long-arrow-alt-right ml-2"></i>
                         </a>
                       </div>

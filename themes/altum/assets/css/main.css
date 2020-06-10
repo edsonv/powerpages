@@ -113,9 +113,13 @@ body {
   font-size: 1rem;
   font-weight: 400;
   line-height: 1.9;
-  color: #bfbec2;
+  /* color: #bfbec2; */
   text-align: left;
   background-color: #010002; }
+
+body.wrapper {
+  color: #bfbec2;
+}
 
 [tabindex="-1"]:focus {
   outline: 0 !important; }
@@ -191,7 +195,7 @@ sup {
   top: -.5em; }
 
 a {
-  color: #f6ea07;
+  /* color: #f6ea07; */
   text-decoration: none;
   background-color: transparent;
   -webkit-text-decoration-skip: objects; }
@@ -207,6 +211,9 @@ a:not([href]):not([tabindex]) {
     text-decoration: none; }
   a:not([href]):not([tabindex]):focus {
     outline: 0; }
+a.yellow {
+  color: #f6ea07;
+}
 
 pre,
 code,

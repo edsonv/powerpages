@@ -28,7 +28,7 @@
         <?php endif ?>
     </head>
 
-    <body style="background: url(<?= url(THEME_URL_PATH . 'assets/images/bg/bg-c-01.png') ?>) left no-repeat, url(<?= url(THEME_URL_PATH . 'assets/images/bg/bg-c-02.png') ?>) #010002 right no-repeat">
+    <body class="wrapper" style="background: url(<?= url(THEME_URL_PATH . 'assets/images/bg/bg-c-01.png') ?>) left no-repeat, url(<?= url(THEME_URL_PATH . 'assets/images/bg/bg-c-02.png') ?>) #010002 right no-repeat">
 
         <main class="animated fadeIn">
 
